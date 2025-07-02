@@ -1,0 +1,32 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    overflow: hidden;
+}
+.btn_more{
+    margin-left: 55px;
+}
+.btn_more:hover {
+    box-shadow: 1px 1px 10px blue;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.modal{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+.exitBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 360px;
+}
